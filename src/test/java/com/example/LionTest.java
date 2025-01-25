@@ -8,13 +8,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
 @RunWith(Parameterized.class)
 public class LionTest {
     @Rule public MockitoRule rule = MockitoJUnit.rule();
